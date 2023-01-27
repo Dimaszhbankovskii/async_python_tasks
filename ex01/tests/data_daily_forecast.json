@@ -1,0 +1,125 @@
+{
+  "date": "26-05",
+  "hours": [
+    {
+      "hour": 0,
+      "temp": 10,
+      "condition": "overcast"
+    },
+    {
+      "hour": 1,
+      "temp": 10,
+      "condition": "overcast"
+    },
+    {
+      "hour": 2,
+      "temp": 9,
+      "condition": "overcast"
+    },
+    {
+      "hour": 3,
+      "temp": 8,
+      "condition": "overcast"
+    },
+    {
+      "hour": 4,
+      "temp": 7,
+      "condition": "overcast"
+    },
+    {
+      "hour": 5,
+      "temp": 8,
+      "condition": "overcast"
+    },
+    {
+      "hour": 6,
+      "temp": 9,
+      "condition": "overcast"
+    },
+    {
+      "hour": 7,
+      "temp": 11,
+      "condition": "cloudy"
+    },
+    {
+      "hour": 8,
+      "temp": 13,
+      "condition": "cloudy"
+    },
+    {
+      "hour": 9,
+      "temp": 15,
+      "condition": "cloudy"
+    },
+    {
+      "hour": 10,
+      "temp": 17,
+      "condition": "cloudy"
+    },
+    {
+      "hour": 11,
+      "temp": 18,
+      "condition": "cloudy"
+    },
+    {
+      "hour": 12,
+      "temp": 19,
+      "condition": "cloudy"
+    },
+    {
+      "hour": 13,
+      "temp": 20,
+      "condition": "overcast"
+    },
+    {
+      "hour": 14,
+      "temp": 20,
+      "condition": "overcast"
+    },
+    {
+      "hour": 15,
+      "temp": 19,
+      "condition": "overcast"
+    },
+    {
+      "hour": 16,
+      "temp": 18,
+      "condition": "light-rain"
+    },
+    {
+      "hour": 17,
+      "temp": 17,
+      "condition": "light-rain"
+    },
+    {
+      "hour": 18,
+      "temp": 17,
+      "condition": "light-rain"
+    },
+    {
+      "hour": 19,
+      "temp": 15,
+      "condition": "light-rain"
+    },
+    {
+      "hour": 20,
+      "temp": 14,
+      "condition": "light-rain"
+    },
+    {
+      "hour": 21,
+      "temp": 13,
+      "condition": "light-rain"
+    },
+    {
+      "hour": 22,
+      "temp": 13,
+      "condition": "light-rain"
+    },
+    {
+      "hour": 23,
+      "temp": 12,
+      "condition": "light-rain"
+    }
+  ]
+}

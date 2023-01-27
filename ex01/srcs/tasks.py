@@ -44,9 +44,10 @@ class DataCalculationTask:
     def __init__(self, city_forecast: ForecastResponse) -> None:
         self._city_forecast: ForecastResponse = city_forecast
 
-    def _calculate_daily_forecast_indicator(self, daily_forecast: DailyForecast) \
-            -> DailyForecastIndicator:
-        """"""
+    def _calculate_daily_forecast_indicator(self, daily_forecast: DailyForecast) -> DailyForecastIndicator:
+        """
+        Метод для расчёта дневных показателей температуры для города.
+        """
         hourly_forecast: list[HourlyForecast] = [
             hour_forecast for hour_forecast in daily_forecast.hours
             if self.LOWER_LIMIT_TIME <= hour_forecast.hour <= self.UPPER_LIMIT_TIME
@@ -64,9 +65,21 @@ class DataCalculationTask:
         )
 
     def _calculate_aggregated_forecast_indicator(self) -> AggregatedForecastIndicator:
-        """"""
+        """
+        Метод для расчёта общих показателей температуры за весь период.
+        """
         aggregated_indicators = AggregatedForecastIndicator()
         for daily_forecast in self._city_forecast.forecasts:
-            pass
+            daily_forecast_indicator = self._calculate_daily_forecast_indicator(daily_forecast=daily_forecast)
+            aggregated_indicators.daily_forecast_indicators.append(daily_forecast_indicator)
 
+        aggregated_indicators.average_temperature = calculate_average(
+            [daily_forecast_indicator.daily_average_temperature for daily_forecast_indicator
+             in aggregated_indicators.daily_forecast_indicators]
+        )
+
+        aggregated_indicators.amount_rainless_time = sum(
+            [daily_forecast_indicator.daily_amount_rainless_time for daily_forecast_indicator
+             in aggregated_indicators.daily_forecast_indicators]
+        )
         return aggregated_indicators

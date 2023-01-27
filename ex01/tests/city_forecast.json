@@ -1,0 +1,435 @@
+{
+  "city": "MOSCOW",
+  "forecasts": [
+    {
+      "date": "26-05",
+      "hours": [
+        {
+          "hour": 0,
+          "temp": 10,
+          "condition": "overcast"
+        },
+        {
+          "hour": 1,
+          "temp": 10,
+          "condition": "overcast"
+        },
+        {
+          "hour": 2,
+          "temp": 9,
+          "condition": "overcast"
+        },
+        {
+          "hour": 3,
+          "temp": 8,
+          "condition": "overcast"
+        },
+        {
+          "hour": 4,
+          "temp": 7,
+          "condition": "overcast"
+        },
+        {
+          "hour": 5,
+          "temp": 8,
+          "condition": "overcast"
+        },
+        {
+          "hour": 6,
+          "temp": 9,
+          "condition": "overcast"
+        },
+        {
+          "hour": 7,
+          "temp": 11,
+          "condition": "cloudy"
+        },
+        {
+          "hour": 8,
+          "temp": 13,
+          "condition": "cloudy"
+        },
+        {
+          "hour": 9,
+          "temp": 15,
+          "condition": "cloudy"
+        },
+        {
+          "hour": 10,
+          "temp": 17,
+          "condition": "cloudy"
+        },
+        {
+          "hour": 11,
+          "temp": 18,
+          "condition": "cloudy"
+        },
+        {
+          "hour": 12,
+          "temp": 19,
+          "condition": "cloudy"
+        },
+        {
+          "hour": 13,
+          "temp": 20,
+          "condition": "overcast"
+        },
+        {
+          "hour": 14,
+          "temp": 20,
+          "condition": "overcast"
+        },
+        {
+          "hour": 15,
+          "temp": 19,
+          "condition": "overcast"
+        },
+        {
+          "hour": 16,
+          "temp": 18,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 17,
+          "temp": 17,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 18,
+          "temp": 17,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 19,
+          "temp": 15,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 20,
+          "temp": 14,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 21,
+          "temp": 13,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 22,
+          "temp": 13,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 23,
+          "temp": 12,
+          "condition": "light-rain"
+        }
+      ]
+    },
+    {
+      "date": "27-05",
+      "hours": [
+        {
+          "hour": 0,
+          "temp": 12,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 1,
+          "temp": 12,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 2,
+          "temp": 11,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 3,
+          "temp": 11,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 4,
+          "temp": 11,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 5,
+          "temp": 11,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 6,
+          "temp": 11,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 7,
+          "temp": 11,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 8,
+          "temp": 11,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 9,
+          "temp": 12,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 10,
+          "temp": 12,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 11,
+          "temp": 12,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 12,
+          "temp": 13,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 13,
+          "temp": 13,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 14,
+          "temp": 13,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 15,
+          "temp": 14,
+          "condition": "showers"
+        },
+        {
+          "hour": 16,
+          "temp": 14,
+          "condition": "showers"
+        },
+        {
+          "hour": 17,
+          "temp": 14,
+          "condition": "showers"
+        },
+        {
+          "hour": 18,
+          "temp": 14,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 19,
+          "temp": 13,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 20,
+          "temp": 13,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 21,
+          "temp": 12,
+          "condition": "cloudy"
+        },
+        {
+          "hour": 22,
+          "temp": 11,
+          "condition": "cloudy"
+        },
+        {
+          "hour": 23,
+          "temp": 10,
+          "condition": "cloudy"
+        }
+      ]
+    },
+    {
+      "date": "28-05",
+      "hours": [
+        {
+          "hour": 0,
+          "temp": 10,
+          "condition": "overcast"
+        },
+        {
+          "hour": 1,
+          "temp": 10,
+          "condition": "overcast"
+        },
+        {
+          "hour": 2,
+          "temp": 10,
+          "condition": "overcast"
+        },
+        {
+          "hour": 3,
+          "temp": 9,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 4,
+          "temp": 9,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 5,
+          "temp": 9,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 6,
+          "temp": 9,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 7,
+          "temp": 10,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 8,
+          "temp": 11,
+          "condition": "showers"
+        },
+        {
+          "hour": 9,
+          "temp": 11,
+          "condition": "showers"
+        },
+        {
+          "hour": 10,
+          "temp": 11,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 11,
+          "temp": 11,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 12,
+          "temp": 12,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 13,
+          "temp": 12,
+          "condition": "showers"
+        },
+        {
+          "hour": 14,
+          "temp": 13,
+          "condition": "showers"
+        },
+        {
+          "hour": 15,
+          "temp": 13,
+          "condition": "showers"
+        },
+        {
+          "hour": 16,
+          "temp": 13,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 17,
+          "temp": 13,
+          "condition": "showers"
+        },
+        {
+          "hour": 18,
+          "temp": 13,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 19,
+          "temp": 12,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 20,
+          "temp": 11,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 21,
+          "temp": 11,
+          "condition": "cloudy"
+        },
+        {
+          "hour": 22,
+          "temp": 10,
+          "condition": "cloudy"
+        },
+        {
+          "hour": 23,
+          "temp": 9,
+          "condition": "cloudy"
+        }
+      ]
+    },
+    {
+      "date": "29-05",
+      "hours": [
+        {
+          "hour": 0,
+          "temp": 9,
+          "condition": "clear"
+        },
+        {
+          "hour": 1,
+          "temp": 8,
+          "condition": "clear"
+        },
+        {
+          "hour": 2,
+          "temp": 8,
+          "condition": "clear"
+        },
+        {
+          "hour": 3,
+          "temp": 8,
+          "condition": "clear"
+        },
+        {
+          "hour": 4,
+          "temp": 7,
+          "condition": "clear"
+        },
+        {
+          "hour": 5,
+          "temp": 8,
+          "condition": "cloudy"
+        },
+        {
+          "hour": 6,
+          "temp": 9,
+          "condition": "cloudy"
+        },
+        {
+          "hour": 7,
+          "temp": 10,
+          "condition": "cloudy"
+        },
+        {
+          "hour": 8,
+          "temp": 11,
+          "condition": "light-rain"
+        },
+        {
+          "hour": 9,
+          "temp": 12,
+          "condition": "cloudy"
+        }
+      ]
+    }
+  ]
+}

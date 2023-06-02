@@ -4,6 +4,7 @@ from srcs.api_client import YandexWeatherAPI
 from models.fetching_model import (ForecastResponse,
                                    DailyForecast)
 
+
 @pytest.fixture()
 def instantiate_api_client() -> YandexWeatherAPI:
     return YandexWeatherAPI()

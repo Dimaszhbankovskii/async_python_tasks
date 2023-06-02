@@ -1,4 +1,4 @@
-CITIES = {
+CITIES: dict[str, str] = {
     "MOSCOW": "https://code.s3.yandex.net/async-module/moscow-response.json",
     "PARIS": "https://code.s3.yandex.net/async-module/paris-response.json",
     "LONDON": "https://code.s3.yandex.net/async-module/london-response.json",
@@ -16,13 +16,13 @@ CITIES = {
     "CAIRO": "https://code.s3.yandex.net/async-module/cairo-response.json",
 }
 
-ERR_MESSAGE_TEMPLATE = "Something wrong."
-CLEAR_WEATHER_SIGNS = ('clear', 'partly-cloudy', 'cloudy', 'overcast')
+ERR_MESSAGE_TEMPLATE: str = "Something wrong."
+CLEAR_WEATHER_SIGNS: tuple = ('clear', 'partly-cloudy', 'cloudy', 'overcast')
 
-MIN_MAJOR_PYTHON_VER = 4
-MIN_MINOR_PYTHON_VER = 9
+MIN_MAJOR_PYTHON_VER: int = 3
+MIN_MINOR_PYTHON_VER: int = 9
 
-RESULT_FILE_NAME = 'report.json'
+RESULT_FILE_NAME: str = 'report.json'
 
 
 def check_python_version():
